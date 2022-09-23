@@ -6,28 +6,39 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE ✔️
+    => Détecte les problèmes avant qu'ils se produisent en production, intellisense, oblige à faire des vérifications etc...
+- les types de bases ✔️
+    => string, boolean, number, generic, null, undefined
+- comment et pourquoi étendre une interface ✔️
+    => Éviter de répéter du code, établir un lien entre les variables
+- les classes et les decorators ❌
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+const handleClickSkill = (skillName: ISkillProps["name"], skillId: ISkillProps["id"]) => {
+    setSkillNameClicked(skillName);
+    setSkillIdClicked(skillId);
+    handleShowModal();
+};
 
-[lien github](...)
+Cette fonction reçois deux arguments qui sont typés comme les membres d'une interface. Ceci permet de signaler que la fonction a un lien avec l'entité skill.
+
+### Utilisation dans un projet ✔️
+
+[lien github] => https://github.com/bapHyv/wild-book
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -35,8 +46,7 @@ Description :
 
 ### Titre
 
-- lien
-- description
+https://www.typescriptlang.org/docs/handbook/
 
 ## 🚧 Je franchis les obstacles
 
