@@ -6,11 +6,15 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les verbes HTTP ❌ / ✔️
-- les statuts HTTP ❌ / ✔️
+- les verbes HTTP ✔️
+    => Les principaux (GET, PUT, POST, DELETE)
+- les statuts HTTP ✔️
+    => Les principaux (200, 201, 202, 301, 302, 400, 403, 404, 418)
 - les endpoints ❌ / ✔️
-- CORS ❌ / ✔️
-- la nomenclature recommandée pour les routes ❌ / ✔️
+- CORS ✔️
+    => J'aimerai ne pas les connaîtres...
+- la nomenclature recommandée pour les routes ✔️
+    => https://restfulapi.net/resource-naming/
 
 ## 💻 J'utilise
 
@@ -22,13 +26,11 @@
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ✔️
 
-[lien du projet](...)
+https://github.com/bapHyv/backend-wild-book
 
-Description :
-
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -36,8 +38,7 @@ Description :
 
 ### Titre
 
-- lien
-- description
+https://restfulapi.net/
 
 ## 🚧 Je franchis les obstacles
 
