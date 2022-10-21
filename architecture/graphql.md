@@ -6,12 +6,15 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
-- les besoins auxquels répond GraphQL ❌ / ✔️
+- la différence entre REST et GraphQL ✔️
+// GraphQL data fetching specific data with a single API call and Rest fixed data with multiple API calls.
+- les besoins auxquels répond GraphQL ✔️
 - la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
-- Subscription ❌ / ✔️
+// Set of types which completely describe the set of possible data you can query on that service.
+- Query ✔️
+- Mutation ✔️
+- Subscription ✔️
+// Subscriptions are a GraphQL feature that allows a server to send data to its clients when a specific event happens.
 
 ## 💻 J'utilise
 
